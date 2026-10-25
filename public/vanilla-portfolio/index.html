@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harshith | CSE Student & Freelance Web Developer</title>
+  <meta name="description" content="Portfolio of Harshith, a Computer Science Engineering student and freelance web developer based in Kolar, Karnataka, India.">
+  
+  <!-- Google Fonts: Space Grotesk & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Lucide Icons via CDN for Vanilla HTML -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+
+  <!-- ==================== HEADER & NAVBAR ==================== -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        HARSHITH<span class="logo-dot"></span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle light and dark theme">
+          <i data-lucide="sun" id="theme-icon"></i>
+        </button>
+
+        <!-- CTA Button -->
+        <a href="#contact" class="btn btn-primary nav-cta">Let's Talk</a>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+          <i data-lucide="menu" id="menu-icon"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge-pill">
+            <span class="pulse-dot"></span>
+            <span>CSE STUDENT • FREELANCE WEB DEVELOPER</span>
+          </div>
+
+          <h1 class="hero-title">
+            Building <span class="gradient-text">Modern Websites</span> That Help Businesses Grow.
+          </h1>
+
+          <p class="hero-description">
+            I'm Harshith, a Computer Science Engineering student and aspiring frontend developer who builds clean, responsive, and user-friendly websites for businesses and individuals.
+          </p>
+
+          <div class="availability-banner">
+            <i data-lucide="briefcase"></i>
+            <span>Open to Internship Opportunities & Freelance Projects.</span>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explore My Projects</span>
+              <i data-lucide="arrow-right"></i>
+            </a>
+            <a href="#contact" class="btn btn-outline">Hire Me</a>
+          </div>
+
+          <div class="hero-social">
+            <span class="social-label">Connect:</span>
+            <div class="social-links">
+              <a href="https://github.com/h9056450-max" target="_blank" rel="noopener" title="GitHub">
+                <i data-lucide="github"></i>
+              </a>
+              <a href="https://linkedin.com/in/harshith-dev" target="_blank" rel="noopener" title="LinkedIn">
+                <i data-lucide="linkedin"></i>
+              </a>
+              <a href="https://wa.me/919019373899" target="_blank" rel="noopener" title="WhatsApp">
+                <i data-lucide="message-circle"></i>
+              </a>
+              <a href="mailto:h9056450@gmail.com" title="Email Harshith">
+                <i data-lucide="mail"></i>
+              </a>
+            </div>
+            <span class="hero-loc">Kolar, Karnataka, India</span>
+          </div>
+        </div>
+
+        <!-- Right Visual: Developer Code Terminal -->
+        <div class="hero-visual">
+          <div class="terminal-card">
+            <div class="terminal-header">
+              <div class="window-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="terminal-title">developer.config.js</span>
+              <span class="terminal-tag">UTF-8</span>
+            </div>
+            <pre class="terminal-body"><code><span class="c-keyword">const</span> <span class="c-var">developer</span> = {
+  <span class="c-prop">name</span>: <span class="c-string">"Harshith"</span>,
+  <span class="c-prop">degree</span>: <span class="c-string">"B.E. Computer Science"</span>,
+  <span class="c-prop">location</span>: <span class="c-string">"Kolar, Karnataka, India"</span>,
+  <span class="c-prop">skills</span>: [<span class="c-string">"HTML5"</span>, <span class="c-string">"CSS3"</span>, <span class="c-string">"JavaScript"</span>],
+  <span class="c-prop">learning</span>: [<span class="c-string">"React"</span>, <span class="c-string">"Modern APIs"</span>],
+  <span class="c-prop">goal</span>: <span class="c-string">"Impactful Websites for Businesses"</span>
+};
+
+<span class="c-keyword">export default</span> developer;</code></pre>
+            <div class="terminal-footer">
+              <span class="status-live">● Clean Semantic Code</span>
+              <span class="speed-badge">100% Mobile Ready</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT ME SECTION ==================== -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">BACKGROUND</p>
+          <h2 class="section-title">A Little About Me</h2>
+          <p class="section-description">
+            I'm a Computer Science Engineering student passionate about web development and building practical digital solutions. I enjoy turning ideas into responsive websites that look great and work smoothly across devices. I'm currently improving my development skills, building real-world projects, and looking for opportunities to collaborate with businesses and development teams.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="card-icon"><i data-lucide="graduation-cap"></i></div>
+            <span class="card-label">EDUCATION</span>
+            <h3 class="card-heading">Computer Science Engineering student.</h3>
+            <p class="card-text">Building strong foundations in algorithms, programming principles, and responsive web design.</p>
+          </div>
+
+          <div class="about-card">
+            <div class="card-icon"><i data-lucide="map-pin"></i></div>
+            <span class="card-label">LOCATION</span>
+            <h3 class="card-heading">Kolar, Karnataka, India.</h3>
+            <p class="card-text">Available for local projects across Karnataka and remote opportunities worldwide.</p>
+          </div>
+
+          <div class="about-card">
+            <div class="card-icon"><i data-lucide="code-2"></i></div>
+            <span class="card-label">INTERESTS</span>
+            <h3 class="card-heading">Frontend Development & Web Design.</h3>
+            <p class="card-text">JavaScript, responsive layouts, web performance, and AI-powered web applications.</p>
+          </div>
+
+          <div class="about-card">
+            <div class="card-icon"><i data-lucide="briefcase"></i></div>
+            <span class="card-label">CURRENTLY LOOKING FOR</span>
+            <h3 class="card-heading">Internships & Freelance Website Projects.</h3>
+            <p class="card-text">Eager to contribute to live web projects and build high-quality websites for local businesses.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TECHNICAL SKILLS SECTION ==================== -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">TECHNICAL SKILLS</p>
+          <h2 class="section-title">Skills & Learning Journey</h2>
+          <p class="section-description">
+            Honest, verified skills built through coursework, coding projects, and continuous hands-on learning.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3 class="skill-group-title">Frontend Development</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <span class="skill-name">HTML5</span>
+                <span class="skill-level">Semantic & accessible structure</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">CSS3</span>
+                <span class="skill-level">Flexbox, Grid, transitions & responsive rules</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-level">DOM logic, ES6 syntax & async fetching</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Responsive Web Design</span>
+                <span class="skill-level">Mobile-first fluid layouts</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-group-title">Tools and Platforms</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <span class="skill-name">Git</span>
+                <span class="skill-level">Version tracking & branching</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">GitHub</span>
+                <span class="skill-level">Repository management & open source</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">VS Code</span>
+                <span class="skill-level">Primary development environment</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Vercel</span>
+                <span class="skill-level">Continuous deployment & hosting</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-group-title">Currently Learning</h3>
+            <div class="skill-items">
+              <div class="skill-item">
+                <span class="skill-name">React</span>
+                <span class="skill-level">Components, props & state management</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Modern Frontend Practices</span>
+                <span class="skill-level">Reusable UI patterns & clean architecture</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">API Integration</span>
+                <span class="skill-level">Connecting REST APIs and async data</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">AI-Powered Web Apps</span>
+                <span class="skill-level">Integrating generative AI capabilities</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FEATURED PROJECTS SECTION ==================== -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">WORK & EXPERIMENTS</p>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-description">
+            Live client websites and practical frontend concepts built with clean, modern code.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: MILVETA -->
+          <div class="project-card">
+            <div class="project-mockup milveta-mockup">
+              <div class="mockup-header">
+                <span class="badge-status live">Delivered Client Website</span>
+                <span class="mockup-url">milveta.com</span>
+              </div>
+              <div class="mockup-preview">
+                <h4>MILVETA</h4>
+                <p>Multi Millet Powder Nutrition Website</p>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta">
+                <span>HTML</span> · <span>CSS</span> · <span>JavaScript</span> · <span>Vercel</span>
+              </div>
+              <h3 class="project-title">MILVETA — Multi Millet Powder Website</h3>
+              <p class="project-desc">
+                A modern business website for a millet-based nutrition brand, designed to present products, communicate brand values, and guide customers toward purchasing options.
+              </p>
+              <div class="project-buttons">
+                <a href="https://www.milveta.com" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+                  <span>Live Website</span>
+                  <i data-lucide="external-link"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: RK Infra Developers -->
+          <div class="project-card">
+            <div class="project-mockup rk-mockup">
+              <div class="mockup-header">
+                <span class="badge-status concept">Website Concept / Demo</span>
+                <span class="mockup-url">rk-infra.ai.studio</span>
+              </div>
+              <div class="mockup-preview">
+                <h4>RK INFRA</h4>
+                <p>Developers and Constructions</p>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta">
+                <span>HTML</span> · <span>CSS</span> · <span>JavaScript</span> · <span>Responsive UI</span>
+              </div>
+              <h3 class="project-title">RK Infra Developers and Constructions</h3>
+              <p class="project-desc">
+                A construction business website concept focused on presenting services, showcasing property-related information, and helping potential customers connect with the business.
+              </p>
+              <div class="project-buttons">
+                <a href="https://rk-infra-developers-and-constructions.ai.studio" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+                  <span>Demo Concept</span>
+                  <i data-lucide="external-link"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Dance Academy -->
+          <div class="project-card">
+            <div class="project-mockup dance-mockup">
+              <div class="mockup-header">
+                <span class="badge-status concept">Website Concept</span>
+                <span class="mockup-url">dance-academy.demo</span>
+              </div>
+              <div class="mockup-preview">
+                <h4>DANCE ACADEMY</h4>
+                <p>Modern Dance Programs & Studio</p>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta">
+                <span>HTML</span> · <span>CSS</span> · <span>JavaScript</span>
+              </div>
+              <h3 class="project-title">Dance Academy Website Concept</h3>
+              <p class="project-desc">
+                A modern, responsive website concept for a dance academy, featuring class information, dance programs, and enquiry options.
+              </p>
+              <div class="project-buttons">
+                <a href="https://github.com/h9056450-max" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+                  <span>Code / Demo</span>
+                  <i data-lucide="github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: Personal Projects -->
+          <div class="project-card">
+            <div class="project-mockup lab-mockup">
+              <div class="mockup-header">
+                <span class="badge-status experiment">Code Lab</span>
+                <span class="mockup-url">github.com/h9056450-max</span>
+              </div>
+              <div class="mockup-preview">
+                <h4>DEV EXPERIMENTS</h4>
+                <p>UI Sandbox & JavaScript Labs</p>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta">
+                <span>JavaScript</span> · <span>HTML5</span> · <span>CSS3</span> · <span>Git</span>
+              </div>
+              <h3 class="project-title">Personal Projects and Experiments</h3>
+              <p class="project-desc">
+                A collection of small web development projects, UI experiments, and practical applications built while learning and improving my skills.
+              </p>
+              <div class="project-buttons">
+                <a href="https://github.com/h9056450-max" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+                  <span>Source Code</span>
+                  <i data-lucide="github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FREELANCE SERVICES SECTION ==================== -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">SERVICES</p>
+          <h2 class="section-title">How I Can Help Your Business</h2>
+          <p class="section-description">
+            Tailored, responsive websites designed to help local businesses establish a trusted presence and convert visitors into customers.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon"><i data-lucide="building-2"></i></div>
+            <h3 class="service-title">Business Websites</h3>
+            <p class="service-desc">
+              Professional websites for small businesses that want to establish an online presence.
+            </p>
+            <ul class="service-points">
+              <li>Clean layout customized to your brand</li>
+              <li>Mobile-responsive on every phone</li>
+              <li>Google Maps & direct WhatsApp inquiries</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline service-cta">Discuss Your Website</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon"><i data-lucide="stethoscope"></i></div>
+            <h3 class="service-title">Clinic and Healthcare Websites</h3>
+            <p class="service-desc">
+              Clean websites for clinics and healthcare providers, with service information, location details, and enquiry options.
+            </p>
+            <ul class="service-points">
+              <li>Doctor details, timings & treatment lists</li>
+              <li>One-tap appointment booking via WhatsApp/phone</li>
+              <li>Directions and map for visiting patients</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline service-cta">Discuss Your Website</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon"><i data-lucide="utensils-crossed"></i></div>
+            <h3 class="service-title">Restaurant and Cafe Websites</h3>
+            <p class="service-desc">
+              Mobile-friendly websites with menus, business information, and WhatsApp enquiry options.
+            </p>
+            <ul class="service-points">
+              <li>Visual food menu that is easily readable</li>
+              <li>WhatsApp ordering & reservation trigger</li>
+              <li>Opening hours, address & ambiance gallery</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline service-cta">Discuss Your Website</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon"><i data-lucide="wrench"></i></div>
+            <h3 class="service-title">Website Redesign and Maintenance</h3>
+            <p class="service-desc">
+              Improvements to existing websites, responsive design fixes, content updates, and basic maintenance.
+            </p>
+            <ul class="service-points">
+              <li>Fixing broken mobile layouts & slow loading</li>
+              <li>Modern visual redesign to match current standards</li>
+              <li>Updating menus, phone numbers & contact forms</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline service-cta">Discuss Your Website</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== DEVELOPMENT PROCESS ==================== -->
+    <section class="section process-section" id="process">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">WORKFLOW</p>
+          <h2 class="section-title">My Development Process</h2>
+          <p class="section-description">
+            A simple, transparent 4-step timeline from your first idea to a live website.
+          </p>
+        </div>
+
+        <div class="process-timeline">
+          <div class="process-step">
+            <div class="step-num">01</div>
+            <h3 class="step-title">Understand</h3>
+            <p class="step-desc">Learn about the client's business, goals, and requirements.</p>
+          </div>
+
+          <div class="process-step">
+            <div class="step-num">02</div>
+            <h3 class="step-title">Design</h3>
+            <p class="step-desc">Plan the layout and visual style.</p>
+          </div>
+
+          <div class="process-step">
+            <div class="step-num">03</div>
+            <h3 class="step-title">Develop</h3>
+            <p class="step-desc">Build a responsive website and test its functionality.</p>
+          </div>
+
+          <div class="process-step">
+            <div class="step-num">04</div>
+            <h3 class="step-title">Launch</h3>
+            <p class="step-desc">Deploy the website and help the client get started.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== INTERNSHIP SECTION ==================== -->
+    <section class="section internship-section" id="internship">
+      <div class="container">
+        <div class="internship-banner">
+          <div class="internship-content">
+            <span class="section-tag">INTERNSHIP OPPORTUNITIES</span>
+            <h2 class="section-title">Ready to Learn, Build, and Contribute</h2>
+            <p class="section-description">
+              I'm actively seeking frontend development and web development internship opportunities where I can contribute to real projects, collaborate with experienced developers, and grow my technical skills.
+            </p>
+            <div class="internship-buttons">
+              <a href="https://github.com/h9056450-max" target="_blank" rel="noopener" class="btn btn-primary">
+                <i data-lucide="github"></i>
+                <span>View GitHub</span>
+              </a>
+              <a href="https://linkedin.com/in/harshith-dev" target="_blank" rel="noopener" class="btn btn-outline">
+                <i data-lucide="linkedin"></i>
+                <span>Connect on LinkedIn</span>
+              </a>
+              <button id="resume-btn" class="btn btn-outline">
+                <i data-lucide="file-text"></i>
+                <span>Download Resume</span>
+              </button>
+            </div>
+            <p class="resume-note" id="resume-note">Note: Resume file URL can be configured directly in script.js or viewed upon request.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-tag">GET IN TOUCH</p>
+          <h2 class="section-title">Have a Project in Mind?</h2>
+          <p class="section-description">
+            Whether you're a business looking for a website or a recruiter with an opportunity, I'd love to connect.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info -->
+          <div class="contact-info">
+            <div class="info-card">
+              <i data-lucide="message-circle" class="info-icon"></i>
+              <div>
+                <span class="info-label">WhatsApp</span>
+                <a href="https://wa.me/919019373899?text=Hello%20Harshith,%20I%20would%20like%20to%20discuss%20a%20website%20project." target="_blank" rel="noopener" class="info-val">
+                  +91 9019373899
+                </a>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <i data-lucide="mail" class="info-icon"></i>
+              <div>
+                <span class="info-label">Email</span>
+                <a href="mailto:h9056450@gmail.com" class="info-val">h9056450@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <i data-lucide="map-pin" class="info-icon"></i>
+              <div>
+                <span class="info-label">Location</span>
+                <span class="info-val">Kolar, Karnataka, India</span>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <i data-lucide="github" class="info-icon"></i>
+              <div>
+                <span class="info-label">GitHub</span>
+                <a href="https://github.com/h9056450-max" target="_blank" rel="noopener" class="info-val">github.com/h9056450-max</a>
+              </div>
+            </div>
+
+            <!-- Pre-filled WhatsApp button -->
+            <div class="whatsapp-box">
+              <h4>Direct WhatsApp Enquiry</h4>
+              <p>Chat directly with pre-filled message for quick turnaround.</p>
+              <a href="https://wa.me/919019373899?text=Hello%20Harshith,%20I%20came%20across%20your%20portfolio%20website%20and%20would%20like%20to%20discuss%20a%20website%20project." target="_blank" rel="noopener" class="btn btn-whatsapp">
+                <i data-lucide="message-circle"></i>
+                <span>Chat on WhatsApp (+91 9019373899)</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-wrapper">
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="name">Name *</label>
+                <input type="text" id="name" name="name" required placeholder="Your Full Name">
+                <span class="error-msg" id="name-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required placeholder="you@example.com">
+                <span class="error-msg" id="email-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject *</label>
+                <input type="text" id="subject" name="subject" required placeholder="e.g. Website for my Clinic / Internship Opportunity">
+                <span class="error-msg" id="subject-error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Tell me about your website needs or opportunity..."></textarea>
+                <span class="error-msg" id="message-error"></span>
+              </div>
+
+              <div class="form-actions">
+                <button type="submit" class="btn btn-primary" id="submit-btn">
+                  <span>Send Message</span>
+                  <i data-lucide="send"></i>
+                </button>
+              </div>
+              <p class="form-disclaimer">* Submitting opens your email app with your message pre-formatted to Harshith's inbox.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <a href="#home" class="logo">HARSHITH<span class="logo-dot"></span></a>
+        <p class="footer-desc">Building useful digital experiences, one project at a time.</p>
+        <p class="footer-loc">Kolar, Karnataka, India</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-social">
+        <a href="https://github.com/h9056450-max" target="_blank" rel="noopener" title="GitHub"><i data-lucide="github"></i></a>
+        <a href="https://linkedin.com/in/harshith-dev" target="_blank" rel="noopener" title="LinkedIn"><i data-lucide="linkedin"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="current-year"></span> Harshith. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
